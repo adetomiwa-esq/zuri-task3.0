@@ -4,8 +4,11 @@ import Image1 from '../images/image4.png';
 import Image2 from '../images/image6.png';
 import Image3 from '../images/image3.png';
 import Image4 from '../images/image5.png'
+import Data1 from '../Components/Data1';
+import NftImg from '../images/IMG-4034.jpg'
 
 function Home() {
+  console.log(Data1)
   return (
     <div>
       <div className='body-top'>
@@ -41,6 +44,43 @@ function Home() {
            OpenSea
          </div>
        </div>
+
+
+      <div className='home-end'>
+        <h1 className='base-heading'>Inspiration for your next adventure</h1>
+        <div className='base'>
+         {
+           Data1.map(x => {
+             return <div className='x-box'>
+               <img src={x.ImgSrc} className='img-location' alt='location img'/>
+               <div className='location'>{x.location}<span className='price bold'>{x.price}</span></div>
+               <div className='distance'>{x.distance} <span className='duration'>{x.duration}</span></div>
+               <div className='star'>
+                 <img src={x.star} />
+                 <img src={x.star} />
+                 <img src={x.star} />
+                 <img src={x.star} />
+                 <img src={x.star} />
+                 <img src={x.star} />
+               </div>
+             </div>
+           })
+         }
+       </div>
+      </div>
+      <div className='nft-section'>
+        <div className='nft-text'>
+          <h1 className='nft-head'>Metabnb NFTs</h1>
+          <p className='nft-para'>
+            Discover our NFT gift cards collection. Loyal customers get amazing gift cardswhich are traded as NFTs. These NFTs give our customers access to loads of our exclusive services.
+          </p>
+          <button className='nft-button'>Learn more</button>
+        </div>
+        <div className='nft-image'>
+          <img src={NftImg} />
+      </div>
+      </div>
+
     </div>
   )
 }
