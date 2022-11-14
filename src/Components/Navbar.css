@@ -1,0 +1,52 @@
+.nav {
+    margin-left: 100px;
+    margin-top: 43px;
+    height: 48px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 100px;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.meta-name {
+    background: -webkit-linear-gradient(91.47deg, #DC3E88 18.25%, #B840AE 43.34%, #843FE8 78.18%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2.4rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 700;
+}
+
+.nav-links {
+    list-style-type: none;
+    display: flex;
+    width: 626px;
+    justify-content: space-around;
+}
+
+.left {
+    width: 646px;
+    height: 400.08px;
+    margin-top: 29.46px;
+}
+
+.link {
+    text-decoration: none;
+    color: #434343;
+}
+
+.connect {
+    background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
+    border-radius: 10px;
+    color: white;
+    padding: 10px 0 10px 0;
+    height: 48px;
+    outline: 0px;
+    border: 1px ;
+    width: 170px;
+}
