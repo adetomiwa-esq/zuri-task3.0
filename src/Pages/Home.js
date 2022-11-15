@@ -8,7 +8,6 @@ import Data1 from '../Components/Data1';
 import NftImg from '../images/IMG-4034.jpg'
 
 function Home() {
-  console.log(Data1)
   return (
     <div>
       <div className='body-top'>
@@ -53,7 +52,7 @@ function Home() {
            Data1.map(x => {
              return <div className='x-box'>
                <img src={x.ImgSrc} className='img-location' alt='location img'/>
-               <div className='location'>{x.location}<span className='price bold'>{x.price}</span></div>
+               <div className='location'>{x.location} <span className='price bold'>{x.price}</span></div>
                <div className='distance'>{x.distance} <span className='duration'>{x.duration}</span></div>
                <div className='star'>
                  <img src={x.star} />
