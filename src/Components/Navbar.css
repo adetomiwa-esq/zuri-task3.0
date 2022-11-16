@@ -80,7 +80,9 @@
     }
 
     .link {
-        margin-bottom: 4px;
+        margin-bottom: 10px;
+        border-bottom: gray;
+        padding-bottom: 3px;
     }
 
     .mobile-navigators {
