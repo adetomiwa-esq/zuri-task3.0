@@ -48,10 +48,10 @@ function Navbar() {
         </div>
         <div className={`navigators ${positive ? 'mobile-navigators' : ''}`}>
           <ul className='nav-links'>
-            <Link to='/' onClick={changePositive} className='link mobile'><li>Home</li></Link>
+            <Link to='/zuri-task3.0' onClick={changePositive} className='link mobile'><li>Home</li></Link>
             <Link to='/place' onClick={changePositive} className='link mobile'><li>Place to stay</li></Link>
-            <Link to='/' onClick={changePositive} className='link mobile'><li>NFTs</li></Link>
-            <Link to='/' onClick={changePositive} className='link mobile'><li>Community</li></Link>
+            <Link to='/zuri-task3.0' onClick={changePositive} className='link mobile'><li>NFTs</li></Link>
+            <Link to='/zuri-task3.0' onClick={changePositive} className='link mobile'><li>Community</li></Link>
           </ul>
           <button className='connect mobile' onClick={modalReveal}>Connect wallet</button>
         </div>

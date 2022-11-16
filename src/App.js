@@ -11,7 +11,7 @@ function App() {
       <BrowserRouter>
         <Navbar />
         <Routes>
-          <Route path='/' element={<Home />}/>
+          <Route path='/zuri-task3.0' element={<Home />}/>
           <Route path='/place' element={<Place />} />
         </Routes>
         <Footer />
