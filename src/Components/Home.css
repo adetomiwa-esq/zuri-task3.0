@@ -432,7 +432,7 @@
     }
 
     .x-box {
-        width: 30%;
+        width: 40%;
     }
 
     .x-box .img-location {
@@ -441,6 +441,8 @@
 
     .base {
         margin: auto;
+        width: 90%;
+        justify-content: center;
     }
 
     .nft-section {
