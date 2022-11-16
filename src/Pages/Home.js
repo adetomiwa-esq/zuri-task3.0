@@ -5,7 +5,10 @@ import Image2 from '../images/image6.png';
 import Image3 from '../images/image3.png';
 import Image4 from '../images/image5.png'
 import Data1 from '../Components/Data1';
-import NftImg from '../images/IMG-4034.jpg'
+import NftImg from '../images/threepiece.png'
+import Dog from '../images/Group4038dogg.png'
+import Token from '../images/Group59536token.png'
+import Seaa from '../images/Subtractseaa.png'
 
 function Home() {
   return (
@@ -34,12 +37,15 @@ function Home() {
       
       <div className='mid'>
          <div className='token'>
+          <img src={Token} alt="lil img" />
            MBToken
          </div>
          <div className='mask'>
+           <img src={Dog} alt="lil img" />
            METAMASK
          </div>
          <div className='sea'>
+          <img src={Seaa} alt="lil img" />
            OpenSea
          </div>
        </div>
@@ -55,12 +61,12 @@ function Home() {
                <div className='location'>{x.location} <span className='price bold'>{x.price}</span></div>
                <div className='distance'>{x.distance} <span className='duration'>{x.duration}</span></div>
                <div className='star'>
-                 <img src={x.star} />
-                 <img src={x.star} />
-                 <img src={x.star} />
-                 <img src={x.star} />
-                 <img src={x.star} />
-                 <img src={x.star} />
+                 <img src={x.star} alt='star' />
+                 <img src={x.star} alt='star' />
+                 <img src={x.star} alt='star' />
+                 <img src={x.star} alt='star' />
+                 <img src={x.star} alt='star' />
+                 <img src={x.star} alt='star' />
                </div>
              </div>
            })
@@ -76,8 +82,8 @@ function Home() {
           <button className='nft-button'>Learn more</button>
         </div>
         <div className='nft-image'>
-          <img src={NftImg} />
-      </div>
+          <img src={NftImg} className='nft-img'  alt='nft-img'/>
+        </div>
       </div>
 
     </div>

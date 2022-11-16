@@ -2,10 +2,18 @@
     margin-left: 100px;
     margin-top: 43px;
     height: 48px;
+    width: 1240px;
     display: flex;
     justify-content: space-between;
     margin-right: 100px;
     align-items: center;
+}
+
+.mobile-toggle {
+    display: none;
+    margin-left: auto;
+    margin-right: 20px;
+    cursor: pointer;
 }
 
 .logo {
@@ -29,17 +37,6 @@
     justify-content: space-around;
 }
 
-.left {
-    width: 646px;
-    height: 400.08px;
-    margin-top: 29.46px;
-}
-
-.link {
-    text-decoration: none;
-    color: #434343;
-}
-
 .connect {
     background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
     border-radius: 10px;
@@ -49,4 +46,57 @@
     outline: 0px;
     border: 1px ;
     width: 170px;
+    margin:0px 20px 0px 120px;
+}
+
+.navigators {
+    display: flex;
+    align-items: center;
+}
+
+
+@media(max-width:900px) {
+    .nav {
+        margin-left: 8px;
+        width: 100%;
+        flex-direction: column;
+        margin-top: 0px;
+        align-items: flex-start;
+        height: max-content;
+        justify-content: space-evenly;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        width: max-content;
+    }
+
+    .navigators {
+        flex-direction: column;
+        display: none;
+        height: 0px;
+        margin-top: 10px;
+        transition: all 700ms ease-in-out;
+    }
+
+    .link {
+        margin-bottom: 4px;
+    }
+
+    .mobile-navigators {
+        height: max-content;
+        display: block;
+    }
+
+    .mobile-toggle {
+        display: block;
+    }
+
+    .connect {
+        margin: 0px;
+    }
+
+    .logo {
+        width: 100%;
+    }
 }

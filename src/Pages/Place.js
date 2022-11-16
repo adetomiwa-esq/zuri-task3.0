@@ -8,14 +8,16 @@ function Place() {
     <div>
         <div>
             <div className='places-nav'>
-                <div>Resturant</div>
-                <div>Cottage</div>
-                <div>Castle</div>
-                <div>fantast city</div>
-                <div>beach</div>
-                <div>Carbins</div>
-                <div>off-grid</div>
-                <div>Farm</div>
+                <div className='places-to-go'>
+                  <div>Resturant</div>
+                  <div>Cottage</div>
+                  <div>Castle</div>
+                  <div>fantast city</div>
+                  <div>beach</div>
+                  <div>Carbins</div>
+                  <div>off-grid</div>
+                  <div>Farm</div>
+                </div>
                 <div><div className='button'>Location <i><VscSettings style = {{transform: 'rotate(90deg)'}}/></i></div></div>
             </div>
 
