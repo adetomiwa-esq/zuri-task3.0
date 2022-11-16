@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/zuri-task3.0/static/css/main.2de05dce.css",
+    "main.js": "/zuri-task3.0/static/js/main.b0124085.js",
+    "static/media/threepiece.png": "/zuri-task3.0/static/media/threepiece.e59639a4d8c353d8a7fe.png",
+    "static/media/Frame151one.png": "/zuri-task3.0/static/media/Frame151one.10a667b6f5c8490c6236.png",
+    "static/media/Frame151p2.png": "/zuri-task3.0/static/media/Frame151p2.67b9635268474386ccd7.png",
+    "static/media/Frame151six.png": "/zuri-task3.0/static/media/Frame151six.67b9635268474386ccd7.png",
+    "static/media/Frame151p7.png": "/zuri-task3.0/static/media/Frame151p7.3de47f65f8174b248d95.png",
+    "static/media/Frame151three.png": "/zuri-task3.0/static/media/Frame151three.3de47f65f8174b248d95.png",
+    "static/media/Frame151p12.png": "/zuri-task3.0/static/media/Frame151p12.0e96385ae823ebf35cac.png",
+    "static/media/Frame151p11.png": "/zuri-task3.0/static/media/Frame151p11.5e148044db4e51179cf5.png",
+    "static/media/Frame1518.png": "/zuri-task3.0/static/media/Frame1518.1d2adc92edf4702fba51.png",
+    "static/media/Frame151p4.png": "/zuri-task3.0/static/media/Frame151p4.1d2adc92edf4702fba51.png",
+    "static/media/Frame151p13.png": "/zuri-task3.0/static/media/Frame151p13.00bbf8fa90f53bf1ce25.png",
+    "static/media/Frame151p16.png": "/zuri-task3.0/static/media/Frame151p16.e4528b50077b13d8d0f0.png",
+    "static/media/Frame151four.png": "/zuri-task3.0/static/media/Frame151four.02b9d43b0316cc59cbb2.png",
+    "static/media/Frame151p8.png": "/zuri-task3.0/static/media/Frame151p8.02b9d43b0316cc59cbb2.png",
+    "static/media/Frame151p14.png": "/zuri-task3.0/static/media/Frame151p14.81db35bb72ff79640ca7.png",
+    "static/media/Frame151p15.png": "/zuri-task3.0/static/media/Frame151p15.346aebe62be8e00a4867.png",
+    "static/media/Frame151p6.png": "/zuri-task3.0/static/media/Frame151p6.f9d473456cf2ebf249a4.png",
+    "static/media/Frame151two.png": "/zuri-task3.0/static/media/Frame151two.f9d473456cf2ebf249a4.png",
+    "static/media/Frame151p9.png": "/zuri-task3.0/static/media/Frame151p9.4c412e73f2fef52868e0.png",
+    "static/media/Frame151five.png": "/zuri-task3.0/static/media/Frame151five.3c3e7c00e83d859fbf06.png",
+    "static/media/Frame151p1.png": "/zuri-task3.0/static/media/Frame151p1.3c3e7c00e83d859fbf06.png",
+    "static/media/Frame1517.png": "/zuri-task3.0/static/media/Frame1517.8f8b11a4e2d7d5d2e43e.png",
+    "static/media/Frame151p3.png": "/zuri-task3.0/static/media/Frame151p3.8f8b11a4e2d7d5d2e43e.png",
+    "static/media/Frame151p10.png": "/zuri-task3.0/static/media/Frame151p10.001a02283e6c9de6a390.png",
+    "static/media/Frame151p5.png": "/zuri-task3.0/static/media/Frame151p5.663b4184f3d117b11cba.png",
+    "static/media/image6.png": "/zuri-task3.0/static/media/image6.848fa7213a30b8d2e4d5.png",
+    "static/media/image4.png": "/zuri-task3.0/static/media/image4.10f4199b3ab44fedc249.png",
+    "static/media/image3.png": "/zuri-task3.0/static/media/image3.6271cf3890d49b0b6201.png",
+    "static/media/image5.png": "/zuri-task3.0/static/media/image5.957f7e84467a8249ee87.png",
+    "index.html": "/zuri-task3.0/index.html",
+    "main.2de05dce.css.map": "/zuri-task3.0/static/css/main.2de05dce.css.map",
+    "main.b0124085.js.map": "/zuri-task3.0/static/js/main.b0124085.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2de05dce.css",
+    "static/js/main.b0124085.js"
+  ]
+}
