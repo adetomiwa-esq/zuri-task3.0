@@ -22,7 +22,7 @@ function Place() {
             </div>
 
 
-
+            <div className='home-end height'>
              <div className='base'>
               {
                 Data2.map(x => {
@@ -41,6 +41,7 @@ function Place() {
                   </div>
                 })
               }
+            </div>
             </div>
         </div>
     </div>

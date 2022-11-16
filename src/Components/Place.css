@@ -36,6 +36,10 @@
     margin-left: auto;
 }
 
+.height {
+    height: max-content;
+}
+
 @media(max-width:1001px){
     .places-to-go {
         width: 70%;
