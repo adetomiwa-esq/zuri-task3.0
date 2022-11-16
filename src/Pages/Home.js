@@ -16,11 +16,9 @@ function Home() {
       <div className='body-top'>
        <div className='left'>
           <h1 className='left-heading'>Rent a <span className='purple'>Place</span> away from <span className='purple'>Home</span> in the <span className='purple'>Metaverse</span></h1>
-           <p className='left-para'>we provide you access to luxury and affordable houses in the metaverse, get a chance to turn your imagination to reality at your comfort zone</p>
+           <p className='left-para'>we provide you access to luxury and affordable houses in the metaverse, get a chance to turn your imagination to reality at your comfort zone.</p>
 
            
-
-
 
            <div className='search-box'>
              <input 
@@ -29,6 +27,7 @@ function Home() {
               className='search-input'/>
              <button className='search'>Search</button>
            </div>
+           
        </div>
 
        <div className='right'>
