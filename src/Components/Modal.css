@@ -92,7 +92,7 @@
 @media(max-width:700px){
     .modal {
         top: 30%;
-        left: 30%;
+        left: 50%;
         max-width: 300px;
     }
 
