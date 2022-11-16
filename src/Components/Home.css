@@ -104,6 +104,7 @@
     background-color: #A02279;
     color: white;
     justify-content: space-around;
+    width: 1440px;
 }
 
 .mid > div {
@@ -234,6 +235,10 @@
     .right {
         width: 38%;
         margin-right: 7px;
+    }
+
+    .mid {
+        width: 100%;
     }
 
     .right .image {
