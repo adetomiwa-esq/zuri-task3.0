@@ -149,4 +149,9 @@
     .footer-left h1 {
         margin-bottom: 20px
     }
+
+    .footer-right .one {
+        height: max-content;
+        width: 100%;
+    }
 }
