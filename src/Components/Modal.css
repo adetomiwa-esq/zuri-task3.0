@@ -93,7 +93,7 @@
     .modal {
         top: 30%;
         left: 30%;
-
+        max-width: 300px;
     }
 
     .modal-head {
@@ -101,6 +101,6 @@
     }
 
     .modal-body {
-        max-width: 300px;
+        max-width: 100%;
     }
 }
